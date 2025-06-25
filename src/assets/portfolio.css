@@ -1,0 +1,36 @@
+.btn-port {
+   color: black;         /* override Bootstrap */
+   text-decoration: none;
+   transition: color 0.3s ease;
+   border: none;
+   padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+ }
+  
+.btn-port:hover {
+   color: #e74c3c !important;      /* red on hover */
+ }
+  
+ 
+ .hover-card {
+   overflow: hidden;
+   width: 320px;
+ }
+ 
+ .hover-card .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.6);
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   transition: 0.2s ease-in-out;
+   width: 320px;
+ }
+ 
+ .hover-card:hover .overlay {
+   opacity: 1;
+ }
+ 

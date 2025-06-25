@@ -1,0 +1,19 @@
+.footer-link {
+    color: white !important;         /* override Bootstrap */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #e74c3c !important;      /* red on hover */
+  }
+
+  .footer-icon {
+    color: #ccc;
+    font-size: 28px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icon:hover {
+    color: #e74c3c ;
+  }
